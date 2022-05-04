@@ -15,7 +15,7 @@ Feature: Algemein Functions
 
     Examples:
       | Zeihcen1 | Zeihcen2 | Zeihcen3 | Zeihcen4 | Zeihcen5 | Zeihcen6 | Zeihcen7 | Zeihcen8 | Zeihcen9 | Zeihcen10 |
-      | =        | 7        | 6        | 3        | .        | MR       | 2        | 7        | 8        | 7         |
+      | =        | .       | MR        | 3        | .        | MR       | 2        | 7        | 8        | 7         |
 
   Scenario Outline: Der Anwender sollte die Zahlen   über Nummernblock angeben  können
     And Verifizieren Sie das Zeichen,dass es über NummerBlok "<Zeihcen1>"  eingegeben wurde.
